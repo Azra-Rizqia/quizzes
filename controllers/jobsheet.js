@@ -20,7 +20,7 @@ exports.submitOne = async (req, res) => {
             })
         } else {
             res.status(200).json({
-                "message": `jawaban benar adalah ${quiz.key}`
+                "message": `jawaban anda salah`
             })
         }
     } catch (error) {
